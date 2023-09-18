@@ -1,0 +1,1866 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixtape of DUMBIES </title>
+    <link rel="icon" type="image/x-icon" href="dp.webp">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+</script>
+
+
+
+
+
+</head>
+<body id="body">
+    <div id="loading">
+        <img id="gta"  src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXU4dTg0cmMxZndzMTZ1M25wNDk4Y2lqanBkZGQzNmpsaG0xdHg2ZSZlcD12MV9naWZzX3NlYXJjaCZjdD1z/XaejLonqk19jDugJbq/200.gif" />
+    </div>
+ 
+    
+    
+  
+
+    <div class="box" style="visibility: hidden;" id="box">
+      
+       
+        <nav id="nav" class="mov">
+            <div class="outer">
+        <div class="circle shine" id="circle">       
+        </div>
+        </div>
+        <div class="heading">
+     <h1 id="Baby">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dumbies ❤️&nbsp;&nbsp;&nbsp;</h1>
+     </div>
+     <div class="right-outer">
+        <div class="right-circle" id="shareBtn">       
+        </div>
+        </div>
+        
+
+     </nav>
+
+     <div class="music shine" id="mus" style="visibility: hidden;" >
+        <div id="playlist" class="p"  style="visibility: hidden;">
+            <button id="blank"onclick="nxt=0,songs()" >With You - AP Dhillon</button>
+            <button id="wild" onclick="nxt=1,songs()">Internet Crush - Jeremy Jucker </button>
+            <button id="look" onclick="nxt=2,songs()">Blush - Taba Chake</button>
+            <button id="haze" onclick="nxt=3,songs()">2 of us - Barney Sku</button>
+            <button id="hero" onclick="nxt=4,songs()">10,000 hours - Justin Bieber</button>
+            <button id="gray" onclick="nxt=5,songs()">Malang Sajana - Sachet, Parampara</button>
+            <button id="people" onclick="nxt=6,songs()">Take me to the river - Alex </button>
+            <button id="over" onclick="nxt=7,songs()">We Fell In Love In October - Girl in red </button>
+            <button id="night" onclick="nxt=8,songs()">We Made It - David Hugo</button>
+            <button id="what" onclick="nxt=9,songs()">You - Barney Sku</button>
+            <button id="steal" onclick="nxt=10,songs()">Paper Rings - Taylor Swift</button>
+            <button id="story"onclick="nxt=11,songs()">Safar - Gravero</button>
+            <button id="drag"onclick="nxt=12,songs()">Alag Aasmaan - Anuv Jain</button>
+            <button id="you"onclick="nxt=13,songs()">KTMBK - Zaeden</button>
+            <button id="star"onclick="nxt=14,songs()">Rocket Science - Vaultboy</button>
+            <button id="blin"onclick="nxt=15,songs()">Ross and Rachel - Jake Miller</button>
+            <button id="save"onclick="nxt=16,songs()">A luv song - Barney Sku</button>
+            <button id="lig"onclick="nxt=17,songs()">Side by Side - Aditya Rikhari</button>
+            <button id="ever"onclick="nxt=18,songs()">Christmas lights - Zach Seabaugh</button>
+            <button id="straw"onclick="nxt=19,songs()">Citylights - Barney Sku</button>
+            <button id="want"onclick="nxt=20,songs()">Dreams - Zaeden</button>
+            <button id="good"onclick="nxt=21,songs()">Gulaab - Mitraz </button>
+            <button id="danza"onclick="nxt=22,songs()">It's OK - Corook</button>
+            <button id="water"onclick="nxt=23,songs()">Let's Be friends - Sammy Rash</button>
+            <button id="need"onclick="nxt=24,songs()">Like 1999 - The Valley</button>
+            <button id="man"onclick="nxt=25,songs()">Shut Me Up - Nicky Youre</button>
+            <button id="wish"onclick="nxt=26,songs()">Love Again - The Kid LAROI</button>
+            <button id="rem"onclick="nxt=27,songs()">Roothe - Rohh</button>
+            <button id="ggst"onclick="nxt=28,songs()">Ur Sweater - Barney Sku</button>
+            <button id="char"onclick="nxt=29,songs()">Come Thru - Jeremy Zucker</button>
+            <button id="that" onclick="nxt=30,songs()">Nadiyon Sa - Mitraz</button>
+            <button id="call" onclick="nxt=31,songs()">On My Way - Tsumyoki , Elttwo</button>
+            <button id="die" onclick="nxt=32,songs()">ILYM</button>
+            <button id="taylor" onclick="nxt=33,songs()">This Is How You Fall In Love - Jeremy Zucker</button>
+            <button id="the" onclick="nxt=34,songs()">Remember That Night? - Sara Kays</button>
+            <button id="love" onclick="nxt=35,songs()">Apocalypse - Cigarettes After S*x</button>
+            <button id="just" onclick="nxt=36,songs()">Lovin' Every Minute - Psyx</button>
+            <button id="closer" onclick="nxt=37,songs()">Bonus Track - Chor </button>
+            
+            
+        </div>
+        
+   
+     </div>
+     <div id="hide">
+       
+     <h2 id="name">With You</h2>
+
+     <p id="artist">AP Dhillon</p>
+     </div>
+     <input id="progress" type="range" value="0">  
+    <audio  id="myAudio">
+    <source src="Music/0.mp3" type="audio/mp3">
+  </audio>
+     <div class="control" style="visibility: hidden;" id="control">
+     <button id="btn1"  style="font-size: 10px;" class="fa-solid fa-angle-left" onclick="prv()"></button>
+    
+     <button id="btn2"  onclick="playAudio()" class="fa-solid fa-play"></button>
+    
+     <button id="btn3"  style="font-size: 10px;" class="fa-solid fa-angle-right" onclick="tests()"></button>
+    
+    </div>
+
+    </div>
+
+    <h3 id="userid" onclick="window.open('https://grabify.link/DH0IGM')" style="cursor: pointer;">Made With ❤️ by psyx</h3>
+   
+   
+   <script>
+        
+window.onload = () => kill();
+
+
+
+
+
+
+
+function kill(){
+
+    document.getElementById("mus").classList.remove("shine");
+    document.getElementById("circle").classList.remove("shine");
+}
+
+document.getElementById("circle").onclick = () => window.location.href="https://grabify.link/DH0IGM";
+      
+        var cnt = 0;
+        var nxt = 0;
+
+        var prev = 0;
+        
+
+        var t =  document.getElementById("test");
+       
+        var x = document.getElementById("myAudio"); 
+        var y = document.getElementById("btn2");
+        var z =  document.getElementById("progress");
+        var m =  document.getElementById("mus");
+        var ns = document.getElementById("btn3");
+        
+        var n =  document.getElementById("name");
+        var a =  document.getElementById("artist");
+        var p=  document.getElementById("playlist");
+      
+ var baby=  document.getElementById("Baby");
+
+
+      
+       
+       
+       
+
+        
+        var mobile = window.matchMedia("(max-width: 800px)")
+myFunction(mobile) // Call listener function at run time
+mobile.addListener(myFunction) // Attach listener function on state changes 
+
+
+
+
+        const myTimeout = setTimeout(wassup, 1100);
+        const time = setTimeout(shows, 1100);
+       
+        function wassup() {
+    document.getElementById("loading").style.display="none";
+    document.getElementById("box").style.visibility="visible";
+    document.getElementById("mus").style.visibility="visible";
+    document.getElementById("control").style.visibility="visible";
+    
+    document.getElementById("userid").style.visibility="hidden";
+    
+
+}
+
+
+
+
+
+
+
+navigator.mediaSession.setActionHandler('play', () => {
+    /* Code excerpted. */
+x.play();
+  });
+  navigator.mediaSession.setActionHandler('pause', () => {
+    /* Code excerpted. */
+x.pause();
+  });
+
+
+navigator.mediaSession.setActionHandler('previoustrack', () => {
+    // Whatever you need to do to play the previous track.
+prv();
+});
+navigator.mediaSession.setActionHandler('nexttrack', () => {
+    tests();
+    // Whatever you need to do to play the next track.
+});
+
+          
+         navigator.mediaSession.setActionHandler('seekto', function(details) {
+  x.currentTime = details.seekTime;
+}); 
+
+
+
+      
+
+
+
+
+
+function show() {
+    if( /android|iphone/i.test(navigator.userAgent)){
+        myFunction(mobile);
+    }
+    else{
+
+   
+    document.getElementById("nav").style.marginBottom="";
+    document.getElementById("nav").style.marginTop="-1300px";
+
+    document.getElementById("mus").style.visibility="visible";
+    document.getElementById("control").style.visibility="visible";
+    document.getElementById("nav").style.visibility="visible";
+    a.style.visibility="visible";
+    n.style.visibility="visible";
+    z.style.visibility="visible";
+
+    
+    setTimeout(shows, 1600);
+    }
+
+}
+       
+function shows(){
+    document.getElementById("nav").style.marginBottom="";
+    document.getElementById("nav").style.marginTop="";
+
+
+    users=0;
+   
+      
+}
+
+   
+      
+      
+      
+navigator.mediaSession.metadata = new MediaMetadata({
+  title: "With You",
+  artist: "AP Dhillon",
+  album: "Baby Music Player",
+  artwork: [{src: "Cover/0.jpg"}]
+});
+
+
+
+
+
+
+function myFunction(mobile) {
+
+
+
+document.getElementById("nav").style.marginBottom="";
+document.getElementById("nav").style.marginTop="-1190px";
+
+document.getElementById("mus").style.visibility="visible";
+document.getElementById("control").style.visibility="visible";
+document.getElementById("nav").style.visibility="visible";
+a.style.visibility="visible";
+n.style.visibility="visible";
+z.style.visibility="visible";
+
+
+
+setTimeout(shows, 1900);
+
+}
+
+
+
+
+
+function tests(){
+    
+
+        if(p.scrollTop==1824){
+            p.scrollTop -= 1850;
+        }
+        else{
+            p.scrollTop +=50;
+        console.log(p.scrollTop);
+        }
+    nxt++;
+   
+    songs();
+  
+    
+console.log(nxt);
+    
+
+}
+
+function  prv(){
+    nxt--;
+    songs();
+    p.scrollTop -=50;
+   
+    
+console.log(nxt);
+
+
+}
+
+
+
+
+
+
+document.getElementById("blank").style.backgroundColor= "black";
+        document.getElementById("blank").style.color= " white";
+        
+
+
+
+
+function hili(){
+    if (nxt==0){
+        document.getElementById("blank").style.backgroundColor= "black";
+        document.getElementById("blank").style.color= " white";
+        
+
+    }
+
+    if(nxt==1){
+        document.getElementById("wild").style.backgroundColor= "black";
+        document.getElementById("wild").style.color= " white";
+        
+       
+    }
+     if(nxt==2){
+        document.getElementById("look").style.backgroundColor= "black";
+        document.getElementById("look").style.color= " white";
+        
+    }
+     if(nxt==3){
+        document.getElementById("haze").style.backgroundColor= "black";
+        document.getElementById("haze").style.color= " white";
+        
+    }
+    if(nxt==4){
+        document.getElementById("hero").style.backgroundColor= "black";
+        document.getElementById("hero").style.color= " white";
+        
+    }
+    if(nxt==5){
+        document.getElementById("gray").style.backgroundColor= "black";
+        document.getElementById("gray").style.color= " white";
+        
+    }
+    if(nxt==6){
+        document.getElementById("people").style.backgroundColor= "black";
+        document.getElementById("people").style.color= " white";
+        
+    }
+    if(nxt==7){
+        document.getElementById("over").style.backgroundColor= "black";
+        document.getElementById("over").style.color= " white";
+        
+    }
+    if(nxt==8){
+        document.getElementById("night").style.backgroundColor= "black";
+        document.getElementById("night").style.color= " white";
+        
+    }
+    if(nxt==9){
+        document.getElementById("what").style.backgroundColor= "black";
+        document.getElementById("what").style.color= " white";
+        
+    }
+    if(nxt==10){
+        document.getElementById("steal").style.backgroundColor= "black";
+        document.getElementById("steal").style.color= " white";
+        
+    }
+    if(nxt==11){
+        document.getElementById("story").style.backgroundColor= "black";
+        document.getElementById("story").style.color= " white";
+        
+    }
+    if(nxt==12){
+        document.getElementById("drag").style.backgroundColor= "black";
+        document.getElementById("drag").style.color= " white";
+        
+    }
+    if(nxt==13){
+        document.getElementById("you").style.backgroundColor= "black";
+        document.getElementById("you").style.color= " white";
+        
+    }
+    if(nxt==14){
+        document.getElementById("star").style.backgroundColor= "black";
+        document.getElementById("star").style.color= " white";
+        
+    }
+    if(nxt==15){
+        document.getElementById("blin").style.backgroundColor= "black";
+        document.getElementById("blin").style.color= " white";
+        
+    }
+   
+    
+    if(nxt==16){
+        document.getElementById("save").style.backgroundColor= "black";
+        document.getElementById("save").style.color= " white";
+        
+    }
+    if(nxt==17){
+        document.getElementById("lig").style.backgroundColor= "black";
+        document.getElementById("lig").style.color= " white";
+        
+    }
+    if(nxt==18){
+        document.getElementById("ever").style.backgroundColor= "black";
+        document.getElementById("ever").style.color= " white";
+        
+    }
+    if(nxt==19){
+        document.getElementById("straw").style.backgroundColor= "black";
+        document.getElementById("straw").style.color= " white";
+        
+    }
+    if(nxt==20){
+        document.getElementById("want").style.backgroundColor= "black";
+        document.getElementById("want").style.color= " white";
+        
+    }
+    if(nxt==21){
+        document.getElementById("good").style.backgroundColor= "black";
+        document.getElementById("good").style.color= " white";
+        
+    }
+    if(nxt==22){
+        document.getElementById("danza").style.backgroundColor= "black";
+        document.getElementById("danza").style.color= " white";
+        
+    }
+    if(nxt==23){
+        document.getElementById("water").style.backgroundColor= "black";
+        document.getElementById("water").style.color= " white";
+        
+    }
+    if(nxt==24){
+        document.getElementById("need").style.backgroundColor= "black";
+        document.getElementById("need").style.color= " white";
+        
+    }
+    if(nxt==25){
+        document.getElementById("man").style.backgroundColor= "black";
+        document.getElementById("man").style.color= " white";
+        
+    }
+    if(nxt==26){
+        document.getElementById("wish").style.backgroundColor= "black";
+        document.getElementById("wish").style.color= " white";
+        
+    }
+    if(nxt==27){
+        document.getElementById("rem").style.backgroundColor= "black";
+        document.getElementById("rem").style.color= " white";
+        
+    }
+    if(nxt==28){
+        document.getElementById("ggst").style.backgroundColor= "black";
+        document.getElementById("ggst").style.color= " white";
+        
+    }
+    if(nxt==29){
+        document.getElementById("char").style.backgroundColor= "black";
+        document.getElementById("char").style.color= " white";
+        
+    }
+    if(nxt==30){
+        document.getElementById("that").style.backgroundColor= "black";
+        document.getElementById("that").style.color= " white";
+        
+    }
+    if(nxt==31){
+        document.getElementById("call").style.backgroundColor= "black";
+        document.getElementById("call").style.color= " white";
+        
+    }
+    if(nxt==32){
+        document.getElementById("die").style.backgroundColor= "black";
+        document.getElementById("die").style.color= " white";
+        
+    }
+    if(nxt==33){
+        document.getElementById("taylor").style.backgroundColor= "black";
+        document.getElementById("taylor").style.color= " white";
+        
+    }
+    if(nxt==34){
+        document.getElementById("the").style.backgroundColor= "black";
+        document.getElementById("the").style.color= " white";
+        
+    }
+    if(nxt==35){
+        document.getElementById("love").style.backgroundColor= "black";
+        document.getElementById("love").style.color= " white";
+        
+    }
+    if(nxt==36){
+        document.getElementById("just").style.backgroundColor= "black";
+        document.getElementById("just").style.color= " white";
+        
+    }
+    if(nxt==37){
+        document.getElementById("closer").style.backgroundColor= "black";
+        document.getElementById("closer").style.color= " white";
+        
+    }
+
+}
+
+
+function dehilight(){
+
+
+  
+ 
+ if (nxt!=0){
+        document.getElementById("blank").style.backgroundColor= "antiquewhite";
+        document.getElementById("blank").style.color= " black";
+        
+
+    }
+
+    if(nxt!=1){
+        document.getElementById("wild").style.backgroundColor= "antiquewhite";
+        document.getElementById("wild").style.color= " black";
+        
+       
+    }
+     if(nxt!=2){
+        document.getElementById("look").style.backgroundColor= "antiquewhite";
+        document.getElementById("look").style.color= " black";
+        
+    }
+     if(nxt!=3){
+        document.getElementById("haze").style.backgroundColor= "antiquewhite";
+        document.getElementById("haze").style.color= " black";
+        
+    }
+    if(nxt!=4){
+        document.getElementById("hero").style.backgroundColor= "antiquewhite";
+        document.getElementById("hero").style.color= " black";
+        
+    }
+    if(nxt!=5){
+        document.getElementById("gray").style.backgroundColor= "antiquewhite";
+        document.getElementById("gray").style.color= " black";
+        
+    }
+    if(nxt!=6){
+        document.getElementById("people").style.backgroundColor= "antiquewhite";
+        document.getElementById("people").style.color= " black";
+        
+    }
+    if(nxt!=7){
+        document.getElementById("over").style.backgroundColor= "antiquewhite";
+        document.getElementById("over").style.color= " black";
+        
+    }
+    if(nxt!=8){
+        document.getElementById("night").style.backgroundColor= "antiquewhite";
+        document.getElementById("night").style.color= " black";
+        
+    }
+    if(nxt!=9){
+        document.getElementById("what").style.backgroundColor= "antiquewhite";
+        document.getElementById("what").style.color= " black";
+        
+    }
+    if(nxt!=10){
+        document.getElementById("steal").style.backgroundColor= "antiquewhite";
+        document.getElementById("steal").style.color= " black";
+        
+    }
+    if(nxt!=11){
+        document.getElementById("story").style.backgroundColor= "antiquewhite";
+        document.getElementById("story").style.color= " black";
+        
+    }
+    if(nxt!=12){
+        document.getElementById("drag").style.backgroundColor= "antiquewhite";
+        document.getElementById("drag").style.color= " black";
+        
+    }
+    if(nxt!=13){
+        document.getElementById("you").style.backgroundColor= "antiquewhite";
+        document.getElementById("you").style.color= " black";
+        
+    }
+    if(nxt!=14){
+        document.getElementById("star").style.backgroundColor= "antiquewhite";
+        document.getElementById("star").style.color= " black";
+        
+    }
+    if(nxt!=15){
+        document.getElementById("blin").style.backgroundColor= "antiquewhite";
+        document.getElementById("blin").style.color= " black";
+        
+    }
+   
+    
+    if(nxt!=16){
+        document.getElementById("save").style.backgroundColor= "antiquewhite";
+        document.getElementById("save").style.color= " black";
+        
+    }
+    if(nxt!=17){
+        document.getElementById("lig").style.backgroundColor= "antiquewhite";
+        document.getElementById("lig").style.color= " black";
+        
+    }
+    if(nxt!=18){
+        document.getElementById("ever").style.backgroundColor= "antiquewhite";
+        document.getElementById("ever").style.color= " black";
+        
+    }
+    if(nxt!=19){
+        document.getElementById("straw").style.backgroundColor= "antiquewhite";
+        document.getElementById("straw").style.color= " black";
+        
+    }
+    if(nxt!=20){
+        document.getElementById("want").style.backgroundColor= "antiquewhite";
+        document.getElementById("want").style.color= " black";
+        
+    }
+    if(nxt!=21){
+        document.getElementById("good").style.backgroundColor= "antiquewhite";
+        document.getElementById("good").style.color= " black";
+        
+    }
+    if(nxt!=22){
+        document.getElementById("danza").style.backgroundColor= "antiquewhite";
+        document.getElementById("danza").style.color= " black";
+        
+    }
+    if(nxt!=23){
+        document.getElementById("water").style.backgroundColor= "antiquewhite";
+        document.getElementById("water").style.color= " black";
+        
+    }
+    if(nxt!=24){
+        document.getElementById("need").style.backgroundColor= "antiquewhite";
+        document.getElementById("need").style.color= " black";
+        
+    }
+    if(nxt!=25){
+        document.getElementById("man").style.backgroundColor= "antiquewhite";
+        document.getElementById("man").style.color= " black";
+        
+    }
+    if(nxt!=26){
+        document.getElementById("wish").style.backgroundColor= "antiquewhite";
+        document.getElementById("wish").style.color= " black";
+        
+    }
+    if(nxt!=27){
+        document.getElementById("rem").style.backgroundColor= "antiquewhite";
+        document.getElementById("rem").style.color= " black";
+        
+    }
+    if(nxt!=28){
+        document.getElementById("ggst").style.backgroundColor= "antiquewhite";
+        document.getElementById("ggst").style.color= " black";
+        
+    }
+    if(nxt!=29){
+        document.getElementById("char").style.backgroundColor= "antiquewhite";
+        document.getElementById("char").style.color= " black";
+        
+    }
+    if(nxt!=30){
+        document.getElementById("that").style.backgroundColor= "antiquewhite";
+        document.getElementById("that").style.color= " black";
+        
+    }
+    if(nxt!=31){
+        document.getElementById("call").style.backgroundColor= "antiquewhite";
+        document.getElementById("call").style.color= " black";
+        
+    }
+    if(nxt!=32){
+        document.getElementById("die").style.backgroundColor= "antiquewhite";
+        document.getElementById("die").style.color= " black";
+        
+    }
+    if(nxt!=33){
+        document.getElementById("taylor").style.backgroundColor= "antiquewhite";
+        document.getElementById("taylor").style.color= " black";
+        
+    }
+    if(nxt!=34){
+        document.getElementById("the").style.backgroundColor= "antiquewhite";
+        document.getElementById("the").style.color= " black";
+        
+    }
+    if(nxt!=35){
+        document.getElementById("love").style.backgroundColor= "antiquewhite";
+        document.getElementById("love").style.color= " black";
+        
+    }
+    if(nxt!=36){
+        document.getElementById("just").style.backgroundColor= "antiquewhite";
+        document.getElementById("just").style.color= " black";
+        
+    }
+    if(nxt!=37){
+        document.getElementById("closer").style.backgroundColor= "antiquewhite";
+        document.getElementById("closer").style.color= " black";
+        
+    }
+
+
+
+
+}
+
+
+
+
+function songs(){
+
+
+switch(nxt)
+{
+
+
+    case 1:
+
+    x.setAttribute('src','Music/1.mp3');
+    x.play();
+                y.className="fa-solid fa-pause";
+            m.style.backgroundImage = "url(Cover/1.jpg)";
+            n.innerText="Internet Crush";
+            a.innerText="Jeremy Jucker";
+            document.title="Internet Crush - Jeremy Jucker";
+        navigator.mediaSession.metadata = new MediaMetadata({
+  title: "Wildest Dreams",
+  artist: "Taylor Swift",
+
+  artwork: [{src: "Cover/1.jpg"}]
+});
+
+              hili();
+              dehilight();
+              
+        break;
+
+        case 2:
+        x.setAttribute('src','Music/2.mp3');
+    x.play();
+                y.className="fa-solid fa-pause";
+            m.style.backgroundImage = "url(Cover/2.jpg)";
+            n.innerText="Blush";
+            a.innerText="Taba Chake";
+            document.title="Blush - Taba Chake";
+            hili();
+            dehilight();
+                  navigator.mediaSession.metadata = new MediaMetadata({
+  title: "Blush",
+  artist: "Taba Chake",
+
+  artwork: [{src: "Cover/2.jpg"}]
+});
+
+         break;
+         case 3:
+         x.setAttribute('src','Music/3.mp3');
+    x.play();
+                y.className="fa-solid fa-pause";
+            m.style.backgroundImage = "url(Cover/3.jpg)";
+            n.innerText="2 of us";
+            a.innerText="Barney Sku";
+            document.title="2 of us - Barney Sku";
+                 hili();
+                 dehilight();
+                              navigator.mediaSession.metadata = new MediaMetadata({
+  title: "2 of us",
+  artist: "Barney Sku",
+
+  artwork: [{src: "Cover/3.jpg"}]
+});    
+                
+                
+            break;
+            case 4:
+                   x.setAttribute('src','Music/4.mp3');
+    x.play();
+                y.className="fa-solid fa-pause";
+            m.style.backgroundImage = "url(Cover/4.jpg)";
+            n.innerText="10,000 hours";
+            a.innerText="Justin Beiber ";
+            document.title="10,000 hours - Justin Beiber ";
+            hili();
+            dehilight();
+            
+           navigator.mediaSession.metadata = new MediaMetadata({
+  title: "10,000 hours",
+  artist: "Justin Beiber ",
+
+  artwork: [{src: "Cover/4.jpg"}]
+});      
+            
+            
+            break;
+            case 5:
+            x.setAttribute('src','Music/5.mp3');
+    x.play();
+                y.className="fa-solid fa-pause";
+            m.style.backgroundImage = "url(Cover/5.jpg)";
+            n.innerText="Malang Sajna";
+            a.innerText="Sachet , Parampara";
+            document.title="Malang Sajna - Sachet , Parampara";
+            hili();
+            dehilight();
+            
+                  navigator.mediaSession.metadata = new MediaMetadata({
+  title: "Malang Sajna",
+  artist: "Sachet , Parampara",
+
+  artwork: [{src: "Cover/5.jpg"}]
+});         
+            
+            
+            break;
+
+            case 6:
+            x.setAttribute('src','Music/6.mp3');
+    x.play();
+                y.className="fa-solid fa-pause";
+            m.style.backgroundImage = "url(Cover/6.jpg)";
+            n.innerText="Take me to the river ";
+            a.innerText="Alex Yurkiv , Thelma Costolo ";
+            document.title="Take me to the river - Alex Yurkiv , Thelma Costolo ";
+            hili();
+            dehilight();
+            
+                    navigator.mediaSession.metadata = new MediaMetadata({
+  title: "Take Me To The River",
+  artist: "Alex Yurkiv , Thelma Costolo ",
+
+  artwork: [{src: "Cover/6.jpg"}]
+});
+
+            break;
+
+            case 7:
+            x.setAttribute('src','Music/7.mp3');
+    x.play();
+                y.className="fa-solid fa-pause";
+            m.style.backgroundImage = "url(Cover/7.jpg)";
+            n.innerText="We Fell In Love In October";
+            a.innerText="Girl in red";
+            document.title="We Fell In Love In October - girl in red";
+            hili();
+            dehilight();
+               
+                    navigator.mediaSession.metadata = new MediaMetadata({
+  title: "We Fell In Love In October",
+  artist: "Girl In Red",
+
+  artwork: [{src: "Cover/7.jpg"}]
+});      
+            
+            
+            
+            
+            break;
+
+            case 8:
+            x.setAttribute('src','Music/8.mp3');
+    x.play();
+                y.className="fa-solid fa-pause";
+            m.style.backgroundImage = "url(Cover/8.jpg)";
+            n.innerText="We Made It";
+            a.innerText="David Hugo";
+            document.title="We Made It - David Hugo";
+            hili();
+            dehilight();
+                         navigator.mediaSession.metadata = new MediaMetadata({
+  title: "We Made It",
+  artist: "David Hugo",
+
+  artwork: [{src: "Cover/8.jpg"}]
+});       
+            
+            
+            
+            break;
+
+            case 9:
+            x.setAttribute('src','Music/9.mp3');
+    x.play();
+                y.className="fa-solid fa-pause";
+            m.style.backgroundImage = "url(Cover/9.jpg)";
+            n.innerText="You";
+            a.innerText="Barney Sku";
+            document.title="You - Barney Sku";
+            hili();
+            dehilight();
+            
+                                  navigator.mediaSession.metadata = new MediaMetadata({
+  title: "You",
+  artist: "Barney Sku",
+
+  artwork: [{src: "Cover/9.jpg"}]
+});   
+            
+            
+            
+            break;
+
+            case 10:
+            x.setAttribute('src','Music/10.mp3');
+    x.play();
+                y.className="fa-solid fa-pause";
+            m.style.backgroundImage = "url(Cover/10.jpg)";
+            n.innerText="Paper Rings";
+            a.innerText="Taylor Swift";
+            document.title="Paper rings - Taylor Swift";
+            hili();
+            dehilight();
+            
+                                         navigator.mediaSession.metadata = new MediaMetadata({
+  title: "Paper Rings",
+  artist: "Taylor Swift",
+
+  artwork: [{src: "Cover/10.jpg"}]
+});      
+            
+            
+            break;
+
+            case 11:
+            x.setAttribute('src','Music/11.mp3');
+    x.play();
+                y.className="fa-solid fa-pause";
+            m.style.backgroundImage = "url(Cover/11.jpg)";
+            n.innerText="Safar";
+            a.innerText="Gravero";
+            document.title="Safar - Gravero";
+            hili();
+            dehilight();
+                                               navigator.mediaSession.metadata = new MediaMetadata({
+  title: "Safar",
+  artist: "Gravero",
+
+  artwork: [{src: "Cover/11.jpg"}]
+});      
+            
+            
+            
+            break;
+
+            case 12:
+            x.setAttribute('src','Music/12.mp3');
+    x.play();
+                y.className="fa-solid fa-pause";
+            m.style.backgroundImage = "url(Cover/12.jpg)";
+            n.innerText="Alag Aasmaan";
+            a.innerText="Anuv Jain";
+            document.title="Alag Aasmaan - Anuv Jain";
+            hili();
+            dehilight();
+                                                  navigator.mediaSession.metadata = new MediaMetadata({
+  title: "Alag Aasmaan",
+  artist: "Anuv Jain",
+
+  artwork: [{src: "Cover/12.jpg"}]
+});          
+            
+            
+            
+            break;
+
+            case 13:
+            x.setAttribute('src','Music/13.mp3');
+    x.play();
+                y.className="fa-solid fa-pause";
+            m.style.backgroundImage = "url(Cover/13.jpg)";
+            n.innerText="KTMBK";
+            a.innerText="Zaeden";
+            document.title="KTMBK - Zaeden";
+            hili();
+            dehilight();
+    navigator.mediaSession.metadata = new MediaMetadata({
+  title: "KTMBK",
+  artist: "Zaeden",
+
+  artwork: [{src: "Cover/13.jpg"}]
+});          
+                
+            break;
+
+            case 14:
+            x.setAttribute('src','Music/14.mp3');
+    x.play();
+                y.className="fa-solid fa-pause";
+            m.style.backgroundImage = "url(Cover/14.jpg)";
+            n.innerText="Rocket Science";
+            a.innerText="Vaultboy";
+            document.title="Rocket Science - Vaultboy";
+            hili();
+            dehilight();
+            
+    navigator.mediaSession.metadata = new MediaMetadata({
+  title: "Rocket Science",
+  artist: "Vaultboy",
+
+  artwork: [{src: "Cover/14.jpg"}]
+});            
+            
+
+            
+            break;
+
+            case 15:
+            x.setAttribute('src','Music/15.mp3');
+    x.play();
+                y.className="fa-solid fa-pause";
+            m.style.backgroundImage = "url(Cover/15.jpg)";
+            n.innerText="Ross and Rachel";
+            a.innerText="Jake Miller";
+            document.title="Ross and Rachel - Jake Miller";
+            hili();
+            dehilight();
+            
+          navigator.mediaSession.metadata = new MediaMetadata({
+  title: "Ross and Rachel",
+  artist: "Jake Miller",
+
+  artwork: [{src: "Cover/15.jpg"}]
+});      
+            
+            
+            break;
+
+            case 16:
+            x.setAttribute('src','Music/16.mp3');
+    x.play();
+                y.className="fa-solid fa-pause";
+            m.style.backgroundImage = "url(Cover/16.jpg)";
+            n.innerText="A Luv Song";
+            a.innerText="Barney Sku";
+            document.title="A Luv Song - Barney Sku";
+            hili();
+            dehilight();
+            
+            
+            navigator.mediaSession.metadata = new MediaMetadata({
+  title: "A Luv Song",
+  artist: "Barney Sku",
+
+  artwork: [{src: "Cover/16.jpg"}]
+});      
+            
+            
+            
+            break;
+
+        
+
+            case 17:
+            x.setAttribute('src','Music/17.mp3');
+    x.play();
+                y.className="fa-solid fa-pause";
+            m.style.backgroundImage = "url(Cover/17.jpg)";
+            n.innerText="Side by Side";
+            a.innerText="Aditya Rikhari";
+            document.title="Side By Side - Aditya Rikhari";
+            hili();
+            dehilight(); 
+            
+             navigator.mediaSession.metadata = new MediaMetadata({
+  title: "Side By Side",
+  artist: "Aditya Rikhari",
+
+  artwork: [{src: "Cover/17.jpg"}]
+});         
+            
+            
+            
+            break;
+
+            case 18:
+            x.setAttribute('src','Music/18.mp3');
+    x.play();
+                y.className="fa-solid fa-pause";
+            m.style.backgroundImage = "url(Cover/18.jpg)";
+            n.innerText="Christmas Lights";
+            a.innerText="Zach Seabaugh";
+            document.title="Christmas Lights - Zach Seabaugh";
+            hili();
+            dehilight();
+            
+               navigator.mediaSession.metadata = new MediaMetadata({
+  title: "Christmas Lights",
+  artist: "Zach Seabaugh",
+
+  artwork: [{src: "Cover/18.jpg"}]
+});         
+            
+            
+            
+            break;
+
+            case 19:
+            x.setAttribute('src','Music/19.mp3');
+    x.play();
+                y.className="fa-solid fa-pause";
+            m.style.backgroundImage = "url(Cover/19.jpg)";
+            n.innerText="City Lights";
+            a.innerText="Barney Sku";
+            document.title="City Lights - Barney Sku";
+            hili();
+            dehilight();
+   
+               navigator.mediaSession.metadata = new MediaMetadata({
+  title: "City Lights",
+  artist: " Barney Sku",
+
+  artwork: [{src: "Cover/19.jpg"}]
+});         
+                       
+            
+            
+            
+            break;
+
+            case 20:
+            x.setAttribute('src','Music/20.mp3');
+    x.play();
+                y.className="fa-solid fa-pause";
+            m.style.backgroundImage = "url(Cover/20.jpg)";
+            n.innerText="Dreams";
+            a.innerText="Zaeden";
+            document.title="Dreams - Zaeden";
+            hili();
+            dehilight(); 
+                navigator.mediaSession.metadata = new MediaMetadata({
+  title: "Dreams",
+  artist: "Zaeden",
+
+  artwork: [{src: "Cover/20.jpg"}]
+});           
+            
+            
+            
+            break;
+
+
+               case 21:
+               x.setAttribute('src','Music/21.mp3');
+    x.play();
+                y.className="fa-solid fa-pause";
+            m.style.backgroundImage = "url(Cover/21.jpg)";
+            n.innerText="Gulaab";
+            a.innerText="Mitraz";
+            document.title="Gulaab - Mitraz";
+            hili();
+            dehilight();
+            
+                    navigator.mediaSession.metadata = new MediaMetadata({
+  title: "Gulaab",
+  artist: "Mitraz",
+
+  artwork: [{src: "Cover/21.jpg"}]
+});        
+            
+            
+            break;
+
+            case 22:
+            x.setAttribute('src','Music/22.mp3');
+    x.play();
+                y.className="fa-solid fa-pause";
+            m.style.backgroundImage = "url(Cover/22.jpg)";
+            n.innerText="It's OK";
+            a.innerText="Corook";
+            document.title="It's OK - Corook";
+            hili();
+            dehilight();  
+            
+       navigator.mediaSession.metadata = new MediaMetadata({
+  title: "It's OK",
+  artist: "Corook",
+
+  artwork: [{src: "Cover/22.jpg"}]
+}); 
+            
+            
+            break;
+
+            case 23:
+            x.setAttribute('src','Music/23.mp3');
+    x.play();
+                y.className="fa-solid fa-pause";
+            m.style.backgroundImage = "url(Cover/23.jpg)";
+            n.innerText="Let's Be Friends";
+            a.innerText="Sammy Rash";
+            document.title="Let's Be Friends - Sammy Rash";
+            hili();
+            dehilight();
+            
+        navigator.mediaSession.metadata = new MediaMetadata({
+  title: "Let's Be Friends",
+  artist: "Sammy Rash",
+
+  artwork: [{src: "Cover/23.jpg"}]
+});           
+            
+            
+            
+            break;
+
+            case 24:
+            x.setAttribute('src','Music/24.mp3');
+    x.play();
+                y.className="fa-solid fa-pause";
+            m.style.backgroundImage = "url(Cover/24.jpg)";
+            n.innerText="Like 1999";
+            a.innerText="Valley";
+            document.title="Like 1999 - Valley";
+            hili();
+            dehilight();
+            
+                 navigator.mediaSession.metadata = new MediaMetadata({
+  title: "Like 1999",
+  artist: "Valley",
+
+  artwork: [{src: "Cover/24.jpg"}]
+}); 
+            
+            
+            break;
+
+            case 25:
+            x.setAttribute('src','Music/25.mp3');
+    x.play();
+                y.className="fa-solid fa-pause";
+            m.style.backgroundImage = "url(Cover/25.JPG)";
+            n.innerText="Shut Me Up";
+            a.innerText="Nicky Youre";
+            document.title="Shut Me Up - Nicky Youre";
+            hili();
+            dehilight();
+            
+  navigator.mediaSession.metadata = new MediaMetadata({
+  title: "Shut Me Up",
+  artist: "Nicky Youre",
+
+  artwork: [{src: "Cover/25.JPG"}]
+});           
+            
+            
+            break;
+            case 26:
+            x.setAttribute('src','Music/26.mp3');
+    x.play();
+                y.className="fa-solid fa-pause";
+            m.style.backgroundImage = "url(Cover/26.jpg)";
+            n.innerText="Love Again";
+            a.innerText="The Kid LAROI";
+            document.title="Love Again - The Kid LAROI";
+            hili();
+            dehilight(); 
+            
+    
+  navigator.mediaSession.metadata = new MediaMetadata({
+  title: "Wish You Were Sober",
+  artist: "The Kid LAROI",
+
+  artwork: [{src: "Cover/26.jpg"}]
+});                   
+            
+            break;
+            case 27:
+            x.setAttribute('src','Music/27.mp3');
+    x.play();
+                y.className="fa-solid fa-pause";
+            m.style.backgroundImage = "url(Cover/27.jpg)";
+            n.innerText="Roothe";
+            a.innerText="Rohh";
+            document.title="Roothe - Rohh";
+            hili();
+            dehilight();
+            
+            
+      navigator.mediaSession.metadata = new MediaMetadata({
+  title: "Roothe",
+  artist: "Rohh",
+
+  artwork: [{src: "Cover/27.jpg"}]
+});        
+            
+            
+            break;
+
+            case 28:
+            x.setAttribute('src','Music/28.mp3');
+    x.play();
+                y.className="fa-solid fa-pause";
+            m.style.backgroundImage = "url(Cover/28.jpg)";
+            n.innerText="Ur Sweater";
+            a.innerText="Bareny Sku";
+            document.title="Ur Sweater - Bareny Sku";
+            hili();
+            dehilight(); 
+            
+            navigator.mediaSession.metadata = new MediaMetadata({
+  title: "Ur Sweater",
+  artist: "Bareny Sku",
+
+  artwork: [{src: "Cover/28.jpg"}]
+});      
+            
+            
+            
+            break;
+
+            case 29:
+            x.setAttribute('src','Music/29.mp3');
+    x.play();
+                y.className="fa-solid fa-pause";
+            m.style.backgroundImage = "url(Cover/29.jpg)";
+            n.innerText="Come Thru";
+            a.innerText="Jeremy Zucker";
+            document.title="Come thru - Jeremy Zucker";
+            hili();
+            dehilight();
+            
+     navigator.mediaSession.metadata = new MediaMetadata({
+  title: "Come Thru",
+  artist: "Jeremy Zucker",
+
+  artwork: [{src: "Cover/29.jpg"}]
+});      
+           
+            
+            
+            break;
+
+            case 30:
+            x.setAttribute('src','Music/30.mp3');
+    x.play();
+                y.className="fa-solid fa-pause";
+            m.style.backgroundImage = "url(Cover/30.jpg)";
+            n.innerText="Nadiyo Sa";
+            a.innerText="Mitraz";
+            document.title="Nadiyo Sa - Mitraz";
+            hili();
+            dehilight();
+            
+           
+     navigator.mediaSession.metadata = new MediaMetadata({
+  title: "Nadiyo Sa",
+  artist: "Mitraz",
+
+  artwork: [{src: "Cover/30.jpg"}]
+});           
+            
+            
+            
+            break;
+
+               case 31:
+               x.setAttribute('src','Music/31.mp3');
+    x.play();
+                y.className="fa-solid fa-pause";
+            m.style.backgroundImage = "url(Cover/31.jpg)";
+            n.innerText="On My Way";
+            a.innerText="Tsumyoki , Elttwo";
+            document.title="On My Way - Tsumyoki , Elttwo";
+            hili();
+            dehilight();
+    
+     navigator.mediaSession.metadata = new MediaMetadata({
+  title: "On My Way",
+  artist: "Tsumyoki , Elttwo",
+
+  artwork: [{src: "Cover/31.jpg"}]
+});           
+               
+            
+            
+            
+            break;
+
+            case 32:
+            x.setAttribute('src','Music/32.mp3');
+    x.play();
+                y.className="fa-solid fa-pause";
+            m.style.backgroundImage = "url(Cover/32.jpg)";
+            n.innerText="ILYM";
+            a.innerText="John K , ROSIE";
+            document.title="ILYM - John K , ROSIE";
+            hili();
+            dehilight();
+            
+    navigator.mediaSession.metadata = new MediaMetadata({
+  title: "ILYM",
+  artist: "John K , ROSIE",
+
+  artwork: [{src: "Cover/32.jpg"}]
+});
+            
+            
+            
+            break;
+
+               case 33:
+               x.setAttribute('src','Music/33.mp3');
+    x.play();
+                y.className="fa-solid fa-pause";
+            m.style.backgroundImage = "url(Cover/33.jpg)";
+            n.innerText="This Is How You Fall In Love";
+            a.innerText="Jeremy Zucker";
+            document.title="This Is How You Fall In Love - Jeremy Zucker";
+            hili();
+            dehilight();
+    navigator.mediaSession.metadata = new MediaMetadata({
+  title: "This Is How You Fall In Love",
+  artist: "Jeremy Zucker",
+
+  artwork: [{src: "Cover/33.jpg"}]
+});           
+            
+            
+            
+            break;
+
+            case 34:
+            x.setAttribute('src','Music/34.mp3');
+    x.play();
+                y.className="fa-solid fa-pause";
+            m.style.backgroundImage = "url(Cover/34.jpg)";
+            n.innerText="Remember That Night?";
+            a.innerText="Sara Kays";
+            document.title="Remember That Night? - Sara Kays";
+            hili();
+            dehilight();
+       navigator.mediaSession.metadata = new MediaMetadata({
+  title: "Remember That Night?",
+  artist: "Sara Kays",
+
+  artwork: [{src: "Cover/34.jpg"}]
+});         
+            
+            
+            
+            break;
+
+            case 35:
+            x.setAttribute('src','Music/35.mp3');
+    x.play();
+                y.className="fa-solid fa-pause";
+            m.style.backgroundImage = "url(Cover/35.jpg)";
+            n.innerText="Apocalypse";
+            a.innerText="Cigarettes After S*x";
+            document.title="Apocalypse - Cigarettes After S*x";
+            hili();
+            dehilight();
+          navigator.mediaSession.metadata = new MediaMetadata({
+  title: "Apocalypse",
+  artist: "Cigarettes After S*x",
+
+  artwork: [{src: "Cover/35.jpg"}]
+});         
+            
+            
+            
+            
+            
+            break;
+            case 36:
+            x.setAttribute('src','Music/36.mp3');
+    x.play();
+                y.className="fa-solid fa-pause";
+            m.style.backgroundImage = "url(Cover/36.JPG)";
+            n.innerText="Lovin' Every Minute ";
+            a.innerText="Psyx";
+            document.title="Lovin' Every Minute - Psyx";
+            hili();
+            dehilight();
+            navigator.mediaSession.metadata = new MediaMetadata({
+  title: "Lovin' Every Minute ",
+  artist: "Psyx",
+
+  artwork: [{src: "Cover/36.JPG"}]
+});          
+            
+            
+            
+            break;
+
+
+            case 37:
+            x.setAttribute('src','Music/37.mp3');
+    x.play();
+                y.className="fa-solid fa-pause";
+            m.style.backgroundImage = "url(Cover/37.jpg)";
+            n.innerText="Bonus Track";
+            a.innerText="Chor";
+            document.title="Bonus Track - Chor";
+            hili();
+            dehilight(); 
+         navigator.mediaSession.metadata = new MediaMetadata({
+  title: "Bonus Track",
+  artist: "Chor",
+
+  artwork: [{src: "Cover/37.jpg"}]
+});            
+            
+            
+            
+            break;
+
+
+
+            
+            default:    
+           
+            x.setAttribute('src','Music/0.mp3');
+           x.play();
+           y.className="fa-solid fa-pause";
+            m.style.backgroundImage = "url(Cover/0.jpg)";
+            n.innerText="With You";
+            a.innerText="AP Dhillon";
+           nxt=0;
+           hili();
+           dehilight();
+           document.title="With You - AP Dhillon";
+                   navigator.mediaSession.metadata = new MediaMetadata({
+  title: "With You",
+  artist: "AP Dhillon",
+
+  artwork: [{src: "Cover/0.jpg"}]
+});
+
+      
+               
+
+                
+}
+}
+
+
+
+
+
+function playAudio(){
+    cnt++;
+playaudio();
+console.log(cnt);
+}
+
+
+
+        function playaudio() { 
+
+
+            switch(cnt){
+
+            case 1:
+          
+            x.play(); 
+            y.className="fa-solid fa-pause";
+            break;
+
+            default:
+                cnt=0;
+            x.pause();
+            
+            y.className="fa-solid fa-play";
+
+
+          
+            }
+            
+           
+        }
+        
+
+
+
+
+
+z.max  = x.duration;        // Set max value when you know the duration
+x.onloadedmetadata = () => z.max = x.duration;
+// update audio position
+x.onchange = () => z.currentTime = x.value;
+// update range input when currentTime updates
+x.ontimeupdate = () => z.value = x.currentTime;
+
+m.onclick =() => rste();
+hide.onclick =() => rst();
+
+function rst(){
+    p.classList.remove("slide");
+    p.classList.add("down");
+    
+}
+
+function rste(){
+    
+    p.style.visibility="visible";
+    p.classList.remove("down");
+    p.classList.add("slide");
+}
+
+
+function hiddee(){
+
+    p.style.visibility="none";
+}
+
+z.onchange = () => x.currentTime = z.value;
+x.onended = () => ns.click();
+x.onpause = () =>   y.className="fa-solid fa-play";
+x.onplay= () =>   y.className="fa-solid fa-pause";
+
+
+var dark=0
+document.getElementById("body").ondblclick=()=>{
+    dark++
+darke();
+console.log(dark)   
+}
+
+
+function darke(){
+    switch(dark){
+ case 1:
+        body.style.backgroundColor="black"
+     document.getElementById("box").style.backgroundColor="#141414";
+     document.getElementById("userid").style.color="white";
+    
+     document.getElementById("box").style.color="white";
+
+     document.getElementById("shareBtn").style.filter="invert(100%)";
+ 
+     document.getElementById("box").style.boxShadow="0 0px 7px 0 #272829, 0 0px 7px 0 #272829";
+   
+     document.getElementById("circle").style.border="solid 1px white";
+
+     document.getElementById("btn1").style.backgroundColor="white";
+     document.getElementById("btn2").style.backgroundColor="white";
+     document.getElementById("btn3").style.backgroundColor="white";
+   
+     
+     document.getElementById("btn1").style.color="black";
+     document.getElementById("btn2").style.color="black";
+     document.getElementById("btn3").style.color="black";
+
+
+
+   
+
+
+
+
+     document.getElementById("loading").style.filter="grayscale(0%)";
+     
+     document.getElementById("loading").style.filter="brightness(0%)";
+     document.getElementById("loading").style.webkitFilter="grayscale(0%)";
+
+     document.getElementById("babez").style.color="white";
+     document.getElementById("Happy").style.color="white";
+     document.getElementById("mgmt").style.color="white";
+     document.getElementById("chill").style.color="white";
+     document.getElementById("Github").style.color="white";
+     document.getElementById("close").style.color="white";
+
+
+       break;
+
+  default:
+  dark=0
+  body.style.backgroundColor="antiquewhite";
+     document.getElementById("box").style.backgroundColor="white";
+     document.getElementById("box").style.color="black";
+     document.getElementById("userid").style.color="black";
+     document.getElementById("shareBtn").style.filter="none";
+   
+     document.getElementById("box").style.boxShadow="0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)";
+     document.getElementById("mus").style.border="solid 0px white"
+     document.getElementById("mus").style.boxShadow="0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)";
+     document.getElementById("btn1").style.backgroundColor=" rgba(255, 228, 196, 0.462)";
+     document.getElementById("btn2").style.backgroundColor=" rgba(255, 228, 196, 0.462)";
+     document.getElementById("btn3").style.backgroundColor=" rgba(255, 228, 196, 0.462)";
+    
+     document.getElementById("btn1").style.color="black";
+     document.getElementById("btn2").style.color="black";
+     document.getElementById("btn3").style.color="black";
+  
+
+
+     document.getElementById("btn1").style.boxShadow="  0 4px 8px 0 rgba(0, 0, 0, 0.049), 0 6px 20px 0 rgba(2, 0, 0, 0.189)";
+     document.getElementById("btn2").style.boxShadow="  0 4px 8px 0 rgba(0, 0, 0, 0.049), 0 6px 20px 0 rgba(2, 0, 0, 0.189)";
+     document.getElementById("btn3").style.boxShadow="  0 4px 8px 0 rgba(0, 0, 0, 0.049), 0 6px 20px 0 rgba(2, 0, 0, 0.189)";
+     
+
+}
+}
+
+
+const detectColorScheme = () => {
+  if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    console.log('User prefers dark mode');
+    body.style.backgroundColor="black"
+     document.getElementById("box").style.backgroundColor="#141414";
+     document.getElementById("userid").style.color="white";
+    
+   
+     document.getElementById("box").style.color="white";
+
+     document.getElementById("shareBtn").style.filter="invert(100%)";
+ 
+     document.getElementById("box").style.boxShadow="0 0px 7px 0 #272829, 0 0px 7px 0 #272829";
+   
+     document.getElementById("circle").style.border="solid 1px white";
+
+     document.getElementById("btn1").style.backgroundColor="white";
+     document.getElementById("btn2").style.backgroundColor="white";
+     document.getElementById("btn3").style.backgroundColor="white";
+   
+     
+     document.getElementById("btn1").style.color="black";
+     document.getElementById("btn2").style.color="black";
+     document.getElementById("btn3").style.color="black";
+
+
+
+   
+
+
+
+
+     document.getElementById("loading").style.filter="grayscale(0%)";
+     
+     document.getElementById("loading").style.filter="brightness(0%)";
+     document.getElementById("loading").style.webkitFilter="grayscale(0%)";
+
+     document.getElementById("babez").style.color="white";
+     document.getElementById("Happy").style.color="white";
+     document.getElementById("mgmt").style.color="white";
+     document.getElementById("chill").style.color="white";
+     document.getElementById("Github").style.color="white";
+     document.getElementById("close").style.color="white";
+
+
+
+  } else {
+
+    body.style.backgroundColor="antiquewhite";
+     document.getElementById("box").style.backgroundColor="white";
+     document.getElementById("box").style.color="black";
+     document.getElementById("userid").style.color="black";
+     document.getElementById("shareBtn").style.filter="none";
+    
+     document.getElementById("box").style.boxShadow="0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)";
+     document.getElementById("mus").style.border="solid 0px white"
+     document.getElementById("mus").style.boxShadow="0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)";
+     document.getElementById("btn1").style.backgroundColor=" rgba(255, 228, 196, 0.462)";
+     document.getElementById("btn2").style.backgroundColor=" rgba(255, 228, 196, 0.462)";
+     document.getElementById("btn3").style.backgroundColor=" rgba(255, 228, 196, 0.462)";
+ 
+     document.getElementById("btn1").style.color="black";
+     document.getElementById("btn2").style.color="black";
+     document.getElementById("btn3").style.color="black";
+  
+    
+     
+
+
+     document.getElementById("btn1").style.boxShadow="  0 4px 8px 0 rgba(0, 0, 0, 0.049), 0 6px 20px 0 rgba(2, 0, 0, 0.189)";
+     document.getElementById("btn2").style.boxShadow="  0 4px 8px 0 rgba(0, 0, 0, 0.049), 0 6px 20px 0 rgba(2, 0, 0, 0.189)";
+     document.getElementById("btn3").style.boxShadow="  0 4px 8px 0 rgba(0, 0, 0, 0.049), 0 6px 20px 0 rgba(2, 0, 0, 0.189)";
+     
+    console.log('User prefers light mode');
+  }
+}
+
+window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', detectColorScheme);
+
+detectColorScheme();
+
+
+let touchstartX = 0
+let touchendX = 0
+    
+function checkDirection() {
+  if (touchendX < touchstartX) {
+  
+    tests();
+    playaudio();
+
+  }
+  if (touchendX > touchstartX) {
+  
+    prv();
+    playaudio();
+
+  }
+}
+
+hide.addEventListener('touchstart', e => {
+  touchstartX = e.changedTouches[0].screenX
+})
+
+hide.addEventListener('touchend', e => {
+  touchendX = e.changedTouches[0].screenX
+  checkDirection()
+})
+
+const shareBtn = document.getElementById('shareBtn')
+
+shareBtn.addEventListener('click', event => {
+
+  // Check for Web Share api support
+  if (navigator.share) {
+    // Browser supports native share api
+    navigator.share({
+      title: '',
+      url: ' '
+    }).then(() => {
+      alert('Thanks for sharing!❤️');
+    })
+      .catch((err) => console.error(err));
+  } else {
+    // Fallback
+    alert("The current browser does not support the share function. Please, manually share the link")
+  }
+});
+
+
+    </script>
+
+</body>
+</html>
