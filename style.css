@@ -1,0 +1,556 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Cute+Font&family=DM+Serif+Display:ital@1&family=Lora:ital,wght@0,500;1,500;1,600&family=Oswald:wght@500&family=Playfair+Display:ital,wght@1,600&family=Prata&display=swap');
+*{
+    font-family: 'Oi', cursive;
+
+        scrollbar-width: none;
+
+
+
+}
+h1{
+	font-family: 'Delicious Handrawn', cursive;
+}
+h2{
+	font-family: 'Playfair Display', serif;
+}
+p{
+	font-family: 'Oswald', sans-serif;
+}
+html{
+ scroll-behavior: smooth; 
+
+ 
+  }
+body{
+
+    text-align: center;
+    background-color: antiquewhite;
+    text-transform: capitalize;
+ }
+
+body::-webkit-scrollbar{
+    display: none;
+  }
+
+#playlist::-webkit-scrollbar{
+    display: none;
+  }
+  
+button:active{
+  transform: scale(0.97);
+  }
+
+.box{
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 650px;
+    width: 400px;
+
+    margin: auto;
+   margin-top: 23px;
+   padding-top: 1px;
+   text-align: center;
+   border-radius: 30px;
+   box-shadow: 10cap;
+   flex-wrap: wrap;
+   margin-bottom: 30px;
+   align-items: center;
+   align-content: center;
+  justify-content: center;
+}
+
+#playlists{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 650px;
+    width: 400px;
+    background-color: white;
+    margin: auto;
+   margin-top: 23px;
+   padding-top: 1px;
+   text-align: center;
+   border-radius: 30px;
+   box-shadow: 10cap;
+   flex-wrap: wrap;
+   margin-bottom: 30px;
+   align-items: center;
+   align-content: center;
+   
+
+}
+ 
+
+
+
+#loading{
+    
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 270px;
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+    filter: brightness(0%);
+}
+#loading img {
+    height: 130px;
+    width: 130px;
+
+}
+.control{
+
+    margin-top: 0px;
+}
+
+.music{
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 350px;
+    width: 340px;
+    margin: auto;
+    border-radius: 30px;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    
+   
+    background-image: url(Cover/0.jpg);
+    overflow: hidden;
+    
+
+}
+button{
+
+    background-color: rgba(255, 228, 196, 0.462);
+    border: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+
+}
+#btn1{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.049), 0 6px 20px 0 rgba(2, 0, 0, 0.189);
+    
+}
+#btn3{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.049), 0 6px 20px 0 rgba(2, 0, 0, 0.189);
+    
+}
+#btn2{
+    width: 60px;
+    height: 60px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.049), 0 6px 20px 0 rgba(2, 0, 0, 0.189);
+    
+}
+button:hover{
+    color: white;
+    background-color: black;
+}
+
+h2{
+   
+    font-weight: 300;
+}
+
+
+h2 {
+    
+    font-weight: 300;
+    overflow: hidden;
+    
+    white-space: nowrap;
+    
+  
+
+  }
+  
+
+ 
+#btn5{
+    display: none;
+    width: 60px;
+    height: 60px;
+}
+
+#progress{
+   overflow: hidden;
+    -webkit-appearance: none;
+    background: bisque;
+    border-radius: 3px;
+    width: 77%;
+    height: 5px;
+    margin-top: -10px;
+    margin-bottom: 11px;
+    cursor: pointer;
+}
+
+  /* Thumb: webkit */
+  #progress::-webkit-slider-thumb {
+    /* removing default appearance */
+   
+    -webkit-appearance: none;
+    appearance: none; 
+    /* creating a custom design */
+    height: 15px;
+    width: 15px;
+    background: bisque;
+    border-radius: 50%;
+    border: 2px solid bisque;
+    /*  slider progress trick  */
+    box-shadow: -407px 0 0 400px #f50;
+  }
+
+  #progress::-moz-range-thumb {
+    /* removing default appearance */
+   
+    -webkit-appearance: none;
+    appearance: none; 
+    /* creating a custom design */
+    height: 15px;
+    width: 15px;
+    background: bisque;
+    border-radius: 50%;
+    border: 2px solid bisque;
+    /*  slider progress trick  */
+    box-shadow: -407px 0 0 400px #f50;
+  }
+  
+
+p{
+    margin-top: -17px;
+    margin-bottom: 10px;
+    cursor: default;
+}
+
+h2{
+    cursor: default;
+
+  
+}
+button{
+    cursor: pointer;
+}
+
+
+
+
+nav{
+    display: flex;
+    
+    margin-bottom: 30px;
+
+}
+
+.circle{
+    border-radius: 50%;
+    background-color: bisque;
+  margin-top: 19px;
+  margin-left: 40px;
+  margin-right: 30px;
+    height: 47px;
+    width: 47px;
+    margin-bottom: -10px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(dp.webp);
+    cursor: pointer;
+  
+}
+h1{
+    font-weight: 500;
+    margin-left: 10px;
+    font-size: 27px;
+     margin-top: 23px;
+    margin-bottom: -10px;
+    cursor: default;
+    }
+
+    .right-circle{
+        border-radius: 50%;
+       
+      margin-top: 23px;
+      margin-left: 40px;
+        height: 40px;
+        width: 40px;
+        margin-bottom: -10px;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: 27px 27px;
+     
+        background-image: url(s.png);
+        cursor: pointer;
+      
+    }
+
+
+
+    #playlists{
+       
+        height: 90%;
+        width: 100%;
+        padding-top: 20px;
+        backdrop-filter: blur(50px);
+        filter: blur(100%);
+        padding-bottom: 30px;
+        -webkit-filter: blur(100%);
+-moz-filter: blur(100%);
+-ms-filter: blur(100%);
+filter: blur(100%);
+
+    }
+   
+    #playlists button:hover{
+        background-color: white;
+    }
+
+
+    #playlists button{
+        border-radius: 50px;
+        backdrop-filter: blur(30px);
+        color: black;
+        width: 300px;
+        color: black;
+        margin-bottom: 15px;
+    
+    }
+
+
+
+    #playlist{
+        overflow: scroll;
+        
+        height: 100%;
+        width: 100%;
+        padding-top: 20px;
+        backdrop-filter: blur(50px);
+        filter: blur(100%);
+        padding-bottom: 30px;
+        -webkit-filter: blur(100%);
+-moz-filter: blur(100%);
+-ms-filter: blur(100%);
+filter: blur(100%); 
+    }
+   
+   
+
+
+    #playlist button{
+       padding-left: 30px;
+       padding-right: 30px;
+     overflow: hidden;
+       white-space: nowrap;
+        text-overflow: ellipsis;
+        border-radius: 50px;
+        backdrop-filter: blur(30px);
+        color: black;
+        width: 300px;
+        color: black;
+        margin-bottom: 15px;
+        background-color: antiquewhite;
+       
+        
+    
+    }
+
+    #playlist button:hover{
+        background-color: white;
+    }
+#userid{
+    margin-top: -620px;
+    font-size: 10px;
+    font-weight: 100;
+}
+ 
+
+    @media screen and (max-width: 1000px) {
+        
+      
+
+    .downs{
+    
+        animation-duration: 1.9s;
+        animation-name: d;
+        animation-fill-mode: forwards;
+        
+        
+        }
+        @keyframes d{
+        0%{
+            padding-top: 0%;
+         
+        }
+        100%{
+           margin-top: 160%;
+          
+        }
+        }
+    
+        .box {
+            margin-top: 30px;
+            margin-bottom: 30px;
+          width: 350px; 
+          height: 600px;
+         
+         
+        
+    
+        }
+        button{
+            color: black;
+        }
+        p{
+            margin-bottom: -0px;
+        }
+        #progress{
+           
+            margin-top: 7px;
+            margin-bottom: 17px;
+        }
+        .music{
+            height: 300px;
+            width: 300px; 
+            margin-bottom: 0px;
+            margin-top: 0px;
+        }
+       h1{
+    
+    margin-left: -3px;
+    margin-right: 14px;
+        margin-top: 19px;
+        margin-bottom: 10px;
+       
+       }
+       #dur{
+        margin-top: 3px;
+    
+    }
+    
+    .outer{
+        margin-right: -30px;
+        margin-left: -10px;
+        padding-left: 10px;
+        align-content: center;
+       
+    }
+    .circle{
+       
+        height: 40px;
+        width: 40px;
+    
+        
+    
+    }
+    
+    .right-outer{
+        margin-left: -25px;
+        margin-top: -3px;
+    }
+    
+    
+    .heading{
+     margin-left: 20px;
+    
+    }
+   
+    #playlist button{
+        border-radius: 50px;
+        backdrop-filter: blur(30px);
+        color: black;
+        width: 260px;
+        color: black;
+        background-color: blanchedalmond;
+        margin-bottom: 15px;
+    
+    
+    }
+    #playlist{
+        overflow: scroll;
+        height: 100%;
+        width: 100%;
+        padding-top: 25px;
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+        background: rgba(255, 255, 255, 0.086);
+
+
+    }
+
+    nav{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+}
+
+.slide{
+    
+animation-duration: 1.3s;
+animation-name: s;
+
+
+}
+@keyframes s{
+0%{
+   margin-top: 100%;
+}
+100%{
+   margin-bottom: 0%;
+}
+}
+
+.down{
+    
+    animation-duration: 1.9s;
+    animation-name: d;
+    animation-fill-mode: forwards;
+    
+    
+    }
+    @keyframes d{
+    0%{
+        padding-top: 0%;
+     
+    }
+    100%{
+       margin-top: 130%;
+      
+    }
+    }
+
+
+
+
+    .downs{
+    
+        animation-duration: 1.9s;
+        animation-name: d;
+        animation-fill-mode: forwards;
+        
+        
+        }
+        @keyframes d{
+        0%{
+            padding-top: 0%;
+         
+        }
+        100%{
+           margin-top: 160%;
+          
+        }
+        }
+    
+
+      
+.shine{
+    
+    background: #eee;
+          background: linear-gradient(110deg, #ececec 8%, #f5f5f5 18%, #ececec 33%);
+          
+          background-size: 200% 100%;
+          animation: 1.5s shine linear infinite;
+}
+      
+      @keyframes shine {
+        to {
+          background-position-x: -200%;
+        }
+      }
